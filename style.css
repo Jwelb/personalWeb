@@ -1,0 +1,84 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(Basic-Regular.ttf);
+}
+
+body {
+    background-color: rgb(38, 38, 83);
+    height: 2000px;
+}
+
+#name {
+    font-size: 50px;
+}
+
+#About {
+    margin: 10px;
+}
+
+#Contact {
+    margin: 10px;
+}
+
+#Linkedin {
+    margin: 10px;
+}
+
+.name-nav {
+    font-family: myFirstFont;
+    color: rgb(53, 69, 116);
+    text-decoration: none;
+    margin: 0 5rem;
+    justify-content: space-around;
+}
+
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-bar {
+    font-family: myFirstFont;
+    color: rgb(20, 31, 61);
+    align-items: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: color .3s;
+}
+
+a:hover {
+    color: rgb(112, 48, 48);
+}
+
+.paragraph1 {
+    width: 700px;
+    height: 750px;
+    padding-top: 6em;
+    font-family: myFirstFont;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.vector1 {
+    float: right;
+    position: absolute;
+    top: 600px;
+    right: 50px;
+}
+
+.vector2 {
+    float: left;
+    position: absolute;
+    top: 1600px;
+}
