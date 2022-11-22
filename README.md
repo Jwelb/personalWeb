@@ -2,9 +2,9 @@
 This is my personal website using vanilla html and css.
 Use pages to host the website. Type /src in the url to go to website. 
 TODO List:
-Make the name "Jordan Welborn" be clickable and changes colors
-Make the text be gradient (maybe animation gradient)
-Make a list of skills on the front page along with some of my project experiences and coursework.
+*Make the name "Jordan Welborn" be clickable and changes colors
+*Make the text be gradient (maybe animation gradient)
+*Make a list of skills on the front page along with some of my project experiences and coursework.
 
 Make a fade in text animation transition for all the text and images
 
