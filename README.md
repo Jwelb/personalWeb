@@ -8,13 +8,13 @@ TODO List:
 * Make a fade in text animation transition for all the text and images
 * Put my headshot in the website.
 
-About
+About (when pressed it scrolls all the way down to about)
 1. name
 2. age
 3. grade
 4. story
 
-Contact 
+Contact (when pressed it scrolls all the way down to contact)
 1. make a contact page with the subject line and desciription of what the user is sending. 
 
 **Down the Line:**
