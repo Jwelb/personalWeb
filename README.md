@@ -15,4 +15,6 @@ Contact
 make a contact page with the subject line and desciription of what the user is sending. 
 
 LinkedIn button works however the inside is transparent so it goes through
+Make a javascript back to the top button
+Implement three.js vectors into my website somehow
 
