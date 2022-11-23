@@ -61,6 +61,11 @@ hr {
         text-align: center;
     }
 }
+@media screen and (max-width: 800px) {
+    .vector1{
+        flex-direction: column;
+    }
+}
 
 a {
     text-decoration: none;
@@ -69,7 +74,7 @@ a {
 }
 
 a:hover {
-    color: rgb(201, 96, 96);
+    color: rgb(89, 125, 180);
     -webkit-text-stroke-color: aqua;
 }
 
@@ -90,16 +95,20 @@ a:hover {
 
 .vector1 {
     display: flex;
+    flex-direction: column;
     height: auto;
     padding: auto;
     width: 120;
     max-width: 100%;
-    justify-content: flex-end;
+    justify-content: center;
 }
 
 .vector2 {
-    float: left;
-    position: absolute;
-    margin: 0 auto;
-    top: 1600px;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    padding: auto;
+    width: 120;
+    max-width: 100%;
+    justify-content: center;
 }
