@@ -56,11 +56,13 @@ hr {
       flex-direction: row;
     }
   }
+
 @media screen and (max-width: 800px) {
     #name{
         text-align: center;
     }
 }
+
 @media screen and (max-width: 800px) {
     .vector1{
         flex-direction: column;
@@ -95,7 +97,7 @@ a:hover {
 
 .vector1 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: auto;
     padding: auto;
     width: 120;
