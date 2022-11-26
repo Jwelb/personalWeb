@@ -13,11 +13,13 @@ body {
 }
 
 #name {
-    font-size: 5vw;
+    font-size: 4vw;
 }
+
 hr {
     border-color: black;
 }
+
 #About {
     margin: 10px;
 }
@@ -41,6 +43,8 @@ hr {
 .nav-bar {
     display: flex;
     align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
 .nav-bar {
@@ -48,27 +52,24 @@ hr {
     height: auto;
     font-family: myFirstFont;
     color: rgb(0, 0, 0);
-    align-items: center;
-    align-content: center;
     text-decoration: none;
     font-size: 30px;
-    flex-direction: column;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .nav-bar {
-      flex-direction: column;
+        flex-direction: column;
     }
-  }
+}
 
-@media screen and (max-width: 800px) {
-    #name{
+@media screen and (max-width: 1000px) {
+    #name {
         text-align: center;
     }
 }
 
-@media screen and (max-width: 800px) {
-    .vector1{
+@media screen and (max-width: 1000px) {
+    .vector1 {
         flex-direction: column;
     }
 }
@@ -86,35 +87,63 @@ a:hover {
 
 .paragraph1 {
     max-width: 100%;
-    width: 100;
+    width: auto;
     height: auto;
-    padding-top: 6em;
+    padding-top: 10em;
     font-family: myFirstFont;
     font-size: 30px;
     color: black;
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding-top: auto;
+    margin: 0 5rem;
+    margin-right: 1000px;
+}
+
+@media screen and (max-width: 1000px) {
+    .paragraph1 {
+        margin-right: 80px;
+    }
 }
 
 .vector1 {
     display: flex;
     flex-direction: row;
     height: auto;
-    padding: auto;
+    padding-bottom: 10em;
     width: 120;
     max-width: 100%;
-    justify-content: center;
+    justify-content: right;
+    position: absolute;
+    right: 75px;
+    z-index: 2000;
 }
 
 .vector2 {
     display: flex;
     flex-direction: row;
     height: auto;
-    padding: auto;
-    width: 120;
+    padding-bottom: 10em;
     max-width: 100%;
-    justify-content: center;
+    justify-content: right;
+    position: absolute;
+    right: 75px;
+    z-index: 2000;
+}
+
+.paragraph2 {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    padding-top: 20em;
+    font-family: myFirstFont;
+    font-size: 30px;
+    color: black;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    margin: 0 5rem;
+    margin-right: 1000px;
+    flex-direction: column;
 }
