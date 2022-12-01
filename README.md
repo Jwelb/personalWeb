@@ -7,6 +7,7 @@ TODO List:
 * Make a list of skills on the front page along with some of my project experiences and coursework.
 * Make a fade in text animation transition for all the text and images
 * Put my headshot in the website.
+* Undraw for vectors and illistrations
 
 About (when pressed it scrolls all the way down to about)
 1. name
