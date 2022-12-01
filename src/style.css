@@ -4,20 +4,12 @@ html {
 
 @font-face {
     font-family: myFirstFont;
-    src: url(Basic-Regular.ttf);
+    src: url(Asap-Medium.ttf);
 }
 
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(38, 53, 53);
     height: 2000px;
-}
-
-#name {
-    font-size: 4vw;
-}
-
-hr {
-    border-color: black;
 }
 
 #About {
@@ -28,32 +20,21 @@ hr {
     margin: 10px;
 }
 
-#Linkedin {
-    margin: 10px;
-}
-
-.name-nav {
-    font-family: myFirstFont;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    margin: 0 5rem;
-    justify-content: space-around;
-}
-
 .nav-bar {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: flex-end;
+    justify-content: space-around;
 }
 
 .nav-bar {
     width: 100%;
     height: auto;
     font-family: myFirstFont;
-    color: rgb(0, 0, 0);
+    color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 15px;
+    justify-items: space-around;
 }
 
 @media screen and (max-width: 1000px) {
@@ -76,13 +57,12 @@ hr {
 
 a {
     text-decoration: none;
-    color: black;
+    color: white;
     transition: color .3s;
 }
 
 a:hover {
-    color: rgb(89, 125, 180);
-    -webkit-text-stroke-color: aqua;
+    color: rgb(34, 35, 36);
 }
 
 .paragraph1 {
@@ -92,13 +72,18 @@ a:hover {
     padding-top: 10em;
     font-family: myFirstFont;
     font-size: 30px;
-    color: black;
+    color: white;
     text-align: left;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     margin: 0 5rem;
-    margin-right: 1000px;
+    margin-right: 100px;
+}
+.Welcome{
+    padding-top: 10rem;
+    font-family: myFirstFont;
+    font-size: 50px;
 }
 
 @media screen and (max-width: 1000px) {
