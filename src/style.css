@@ -22,15 +22,23 @@ body {
 
 .nav-bar {
     display: flex;
-    align-items: center;
     background-color: red;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
 }
 
+.nav-bar a {
+    display: inline-block;
+    text-align: center;
+    align-items: center;
+}
+
+#Home {
+    padding-left: 200px;
+}
+
 .nav-bar {
-    width: 500px;
     width: 100%;
     height: auto;
     font-family: myFirstFont;
