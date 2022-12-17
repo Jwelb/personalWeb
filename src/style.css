@@ -12,30 +12,27 @@ body {
     height: 2000px;
 }
 
-#About {
-    background-color: blue;
+@media screen and (max-width: 1000px) {
+    body {
+        font-size: 2em;
+    }
 }
 
-#Contact {
-    margin: 10px;
-}
-
-.nav-bar {
-    display: flex;
-    background-color: red;
-    flex-direction: row;
-    align-items: center;
-    text-align: center;
-}
-
-.nav-bar a {
+nav ul {
+    padding: 0;
     display: inline-block;
-    text-align: center;
-    align-items: center;
+    margin: auto;
+    list-style-type: none;
 }
 
-#Home {
-    padding-left: 200px;
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+#name {
+    font-weight: bold;
 }
 
 .nav-bar {
@@ -43,8 +40,11 @@ body {
     height: auto;
     font-family: myFirstFont;
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 30px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -83,6 +83,10 @@ a:hover {
     transform: scale(1.2);
 }
 
+#Welcome {
+    font-size: 3vw;
+}
+
 .welcome-box {
     max-width: 100%;
     width: 600px;
@@ -104,8 +108,9 @@ a:hover {
     font-size: 50px;
 }
 
-@media screen and (max-width: 1000px) {
-    .paragraph1 {
-        margin-right: 80px;
-    }
+footer {
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(21, 24, 27);
+    margin: 0px;
 }
